@@ -1,6 +1,6 @@
 .. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
 
-.. _intro:
+.. _ng_formbuilder_intro:
 
 Введение
 ========

@@ -1,8 +1,8 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
-.. NextGIS Web TOC
+.. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
+.. NextGIS Form Builder TOC
 
-Документация NextGIS Web
-========================
+Документация NextGIS Form builder
+=================================
 
 Cодержание:
 

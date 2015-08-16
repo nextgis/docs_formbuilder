@@ -17,5 +17,3 @@
 * :ref:`search`
 * :ref:`glossary`
 
-
-

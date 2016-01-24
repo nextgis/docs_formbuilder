@@ -1,7 +1,7 @@
-.. sectionauthor:: Артём Светлов <artem.svetlov@nextgis.ru>
+.. sectionauthor:: Михаил Гусев <mikhail.gusev@nextgis.ru>
 .. NextGIS Form Builder TOC
 
-Документация NextGIS Form builder
+Документация NextGIS Formbuilder
 =================================
 
 Cодержание:
@@ -10,3 +10,7 @@ Cодержание:
    :maxdepth: 2
 
    intro
+   gui
+   workflow
+   features
+   controls

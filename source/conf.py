@@ -243,7 +243,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'NextGISFormbuilder.tex', u'Документация NextGIS Formbuilder',
-   u'Михаил Гусев', 'manual', 'true'),
+   author, 'manual', 'true'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

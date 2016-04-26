@@ -1,4 +1,4 @@
-User documentation for NextGIS Mobile
+Документация по NextGIS Form builder
 
 License
 -------------

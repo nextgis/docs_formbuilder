@@ -71,7 +71,7 @@ release = '2.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'ru'
+language = 'en'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -204,7 +204,7 @@ html_static_path = ['_static']
 # Sphinx supports the following languages:
 #   'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'
 #   'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr'
-html_search_language = 'ru'
+html_search_language = 'en'
 
 # A dictionary with options for the search language support, empty by default.
 # Now only 'ja' uses this config value
@@ -242,8 +242,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'NextGISFormbuilder.tex', u'Документация NextGIS Formbuilder',
-   u'Михаил Гусев', 'manual', 'true'),
+  (master_doc, 'NextGISFormbuilder.tex', u'NextGIS Formbuilder documentation',
+   author, 'manual', 'true'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -272,7 +272,7 @@ latex_appendices = ['appendix']
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'nextgisformbuilder', u'Документация NextGIS Formbuilder',
+    (master_doc, 'nextgisformbuilder', u'NextGIS Formbuilder documentation',
      [author], 1)
 ]
 
@@ -286,7 +286,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'NextGISFormbuilder', u'Документация NextGIS Formbuilder',
+  (master_doc, 'NextGISFormbuilder', u'NextGIS Formbuilder documentation',
    author, 'NextGISFormbuilder', 'One line description of project.',
    'Miscellaneous'),
 ]

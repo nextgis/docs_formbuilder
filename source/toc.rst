@@ -1,8 +1,8 @@
 .. sectionauthor:: Михаил Гусев <mikhail.gusev@nextgis.ru>
 .. NextGIS Form Builder TOC
 
-Документация NextGIS Formbuilder
-=================================
+NextGIS Formbuilder documentation
+==================================
 
 Cодержание:
 

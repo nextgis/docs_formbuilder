@@ -1,4 +1,7 @@
-Документация по NextGIS Form builder
+NextGIS Formbuilder documentation
+
+* English - http://docs.nextgis.com/docs_formbuilder/source/toc.html
+* Russian - http://docs.nextgis.ru/docs_formbuilder/source/toc.html
 
 License
 -------------

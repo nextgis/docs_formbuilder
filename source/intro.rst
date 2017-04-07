@@ -35,7 +35,7 @@
 
 Для Ubuntu Linux: 
 
-.. code:: bash
+.. code-block:: bash
 
    sudo apt-get install software-properties-common python-software-properties
    sudo apt-add-repository ppa:nextgis/ppa

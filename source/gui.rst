@@ -10,7 +10,7 @@
 .. figure:: _static/ngfb_gui.png
    :name: ngfb_gui_pic
    :align: center
-   :height: 11cm
+   :width: 16cm
    
    Внешний вид интерфейса приложения Formbuilder.
    

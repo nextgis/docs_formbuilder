@@ -2,7 +2,7 @@
 .. NextGIS FormBuilder TOC
 
 Документация NextGIS Formbuilder
-=================================
+================================
 
 Cодержание:
 
@@ -11,6 +11,5 @@ Cодержание:
 
    intro
    gui
-   workflow
    features
    controls

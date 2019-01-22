@@ -11,5 +11,5 @@ Cодержание:
 
    intro
    gui
-   features
+   workflow
    controls

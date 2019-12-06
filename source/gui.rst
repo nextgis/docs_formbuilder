@@ -7,7 +7,7 @@ User interface description
 
 The program looks like this by default: (:numref:`ngfb_gui_pic`).
 
-.. figure:: _static/ngfb_gui.png
+.. figure:: _static/ngfb_gui_en.png
    :name: ngfb_gui_pic
    :align: center
    :width: 16cm

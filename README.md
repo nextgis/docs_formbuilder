@@ -1,7 +1,7 @@
 # NextGIS Formbuilder documentation
 
 Read online:
-* English - http://docs.nextgis.en/docs_formbuilder/source/toc.html
+* English - http://docs.nextgis.com/docs_formbuilder/source/toc.html
 * Russian - http://docs.nextgis.ru/docs_formbuilder/source/toc.html
 
 License

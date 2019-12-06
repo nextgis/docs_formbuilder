@@ -1,6 +1,6 @@
 .. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
 
-.. _ngfb_gplv2:
+.. _ngw_gplv2:
 
 GNU General Public License, version 2
 =====================================

@@ -1,144 +1,155 @@
-.. sectionauthor:: Михаил Гусев <mikhail.gusev@nextgis.ru>
+.. sectionauthor:: Mikhail Gusev <mikhail.gusev@nextgis.ru>
 
 .. _ngfb_controls:
 
-Элементы формы и их атрибуты
-============================
+Form controls
+==============
 
-.. _ngfb_control_text:
-
-Текст
------
-
-Простой текст, используется для декорации. *Пример типового использования - для "подписей элементов", когда над каждым элементом можно описать его назначение или название*. 
-
-Атрибуты:
-
-* **Текст**. Строка с текстом, выводимым на экран.
-
-.. _ngfb_control_space:
-
-Пробел
-------
-
-Пустое пространство. *Можно использовать для создания промежутков между группами однотипных элементов*.
-
-Атрибуты отсутствуют.
-
-.. _ngfb_control_textedit:
-
-Текстовое поле
---------------
-
-В этот элемент пользователь вводит текст. На итоговом устройстве может играть роль как строки (line edit), так и большого контейнера с текстом (text edit). *Пример использования: ФИО человека, собирающего данные*.
-
-Атрибуты:
-
-* **Запоминать последнее значение**. При открытии формы для ввода данных о следующем объекте в элемент подставляется значение, введённое для предыдущего объекта. 
-* **Макс. число строк**. Сколько максимум строк текста может ввести пользователь в этот элемент.
-* **Начальный текст**. Исходный текст элемента.
-* **Поле слоя**. Название поля слоя, в которое элемент сохраняет введённое пользователем значение.
-* **Только цифры**. Задаёт ограничение пользователю на ввод: разрешены только цифры. Примечание: в программе не отслеживается соответствие значения этого атрибута и значения атрибута "Начальный текст".
-
-.. _ngfb_control_combobox:
-
-Список
-------
-
-Через этот элемент пользователь выбирает одно значение из нескольких, заранее введённых разработчиком формы, путём нажатия на него и выбора из выпадающего меню. *Пример использования: тип животного в заповеднике*.
-
-Атрибуты:
-
-* **Ввод с поиском**. При набирании слова в области для ввода, из списка выпадают только те значения, которые соответствуют набираемому слову.
-* **Запоминать последнее значение**. При открытии формы для ввода данных о следующем объекте в элемент подставляется значение, введённое для предыдущего объекта. 
-* **Значения**. Набор значений списка. Заполняется в отдельном диалоге. Добавляйте значения при помощи кнопки "+", предварительно введя внутреннюю и отображаемую составляющую в соответствующие поля. Отображаемая составляющая выводится пользователю, а внутренняя - записывается в поле слоя. Для удаления или изменения значения выделите его в наборе, а затем нажмите кнопку "-" и "#" соответственно (для изменения впишите новые значения в поля перед этим). Так же в диалоге есть возможность выбрать значение списка по умолчанию.
-* **Поле слоя**. Название поля слоя, в которое элемент сохраняет введённое пользователем значение.
-* **Разрешить добавлять значения**. Когда пользователь будет работать с формой на телефоне, ему будет позволено вносить в список свои собственные значения.
-
-.. _ngfb_control_doublecombobox:
-
-Сдвоенный список
-----------------
-
-Через этот элемент, визуально состоящий из двух элементов "Список", пользователь выбирает два значения, при том, что набор значений второго (зависимого) списка зависит от выбранного значения в первом (главном). *Пример использования: выбор области + района. Для Хабаровского края - это, например, Амурский и Советско-Гаванский, а для Приморского: Спасский и Лазовский*.
-
-Атрибуты:
-
-* **Запоминать последнее значение**. При открытии формы для ввода данных о следующем объекте в элемент подставляется значение, введённое для предыдущего объекта. 
-* **Значения**. В целом аналогично элементу "Список", но используется другой диалог для ввода значений, который позволяет быстро вводить значения в таблицу при помощи клавиши **Tab**. После ввода внутреннего значения и перехода к отображаемому, отображаемое будет заполнено автоматически. Аналогично элементу "Список" выбор значения по умолчанию для главного списка и значений по умолчанию для зависимых списков отображается на их внешнем виде.
-* **Поле слоя уровня 1**.  Название поля слоя для главного списка, в которое элемент сохраняет введённое пользователем значение.
-* **Поле слоя уровня 2**.  Название поля слоя для зависимого списка, в которое элемент сохраняет введённое пользователем значение.
-
-.. _ngfb_control_checkbox:
-
-Флажок
-------
-
-элемент, позволяющий ввести только два значения логического типа: истина или ложь.
-
-Атрибуты:
-
-* **Запоминать последнее значение**. При открытии формы для ввода данных о следующем объекте в элемент подставляется значение, введённое для предыдущего объекта. 
-* **Начальное значения**. Истина или ложь.
-* **Поле слоя**. Название поля слоя, в которое элемент сохраняет введённое пользователем значение.
-* **Текст**. Текст, выводимый в правой части элемента.
-
-.. _ngfb_control_radiogroup:
-
-Радиогруппа
------------
-
-элемент, повторяющий назначение элемента "Список", но в отличие от него выводящий все свои значения сразу на экран, что может быть удобнее для тех случаев, когда набор значений небольшой (до десяти).
-
-Атрибуты:
-
-* **Запоминать последнее значение**. При открытии формы для ввода данных о следующем объекте в элемент подставляется значение, введённое для предыдущего объекта. 
-* **Значения**. Аналогично элементу "Список".
-* **Поле слоя**. Название поля слоя, в которое элемент сохраняет введённое пользователем значение.
-
-.. _ngfb_control_button:
-
-Кнопка
-------
-
-При нажатии на этот элемент в поле слоя заносится единственное значение, но в отличие от элемента "Флажок" это значение может быть любым, т.к. имеет текстовый формат.
-
-Атрибуты:
-
-* **Значение**. Текстовое значение, записываемое в поле слоя. Если пользователь не нажал на кнопку - значение соответственно не записывается.
-* **Поле слоя**. Название поля слоя, в которое элемент сохраняет введённое пользователем значение.
-* **Текст**. Заголовок кнопки, выводящийся на экран.
-
-.. _ngfb_control_datetime:
-
-Дата и время
-------------
-
-Записывает в соответствующее поле значение даты, времени или даты+времени, причём либо введённое пользователем, либо определённое системой на момент ввода данных об объекте слоя.
-
-Атрибуты:
-
-* **Запоминать последнее значение**. При открытии формы для ввода данных о следующем объекте в элемент подставляется значение, введённое для предыдущего объекта. 
-* **Начальное значение**. Может быть установлено в "текущее дата/время", а может быть задано фиксированным.
-* **Поле слоя**. Название поля слоя, в которое элемент сохраняет введённое пользователем значение.
-* **Тип**. Выбор типа значения из трёх: дата, время или дата+время.
-
-.. _ngfb_control_photo:
-
-Фото
-----
-
-Позволяет пользователю добавить несколько фотографий к текущей записи в слое.
-
-Атрибуты:
-
-* **Макс. число фото**. Количество добавляемых фотографий, не больше.
-
-.. _ngfb_control_signature:
-
-Подпись
+Tabs
 -------
 
-Позволяет поставить официальную подпись.
+Tabs grouping for other elements.
 
-Атрибуты отсутствуют.
+Properties:
+
+* **Current page**. Current page which should be displayed by default.
+* **Headers**. A list of header strings.
+
+Date & time
+------------
+
+An element which allows to pick a date, time or date&time value.
+
+Properties:
+
+* **Is current**. Automatically assigns current value during the data collecting process. Otherwise user will be able to pick it manually.
+* **Type**. Type.
+* **Initial value**. Initial fixed date/time value.
+* **Keep last value**. Whether to keep last entered value for this element during data collecting process.
+
+Distance meter
+---------
+
+This element automatically measures distance between current position of the point and current position of the surveyor.
+
+Dependent comboboxes
+----------------
+
+A pair of drop-down lists with predefined items. The item list of the dependent combobox depends on the items of the main combobox.
+
+Properties:
+
+* **Items**. Lists of items for both comboboxes.
+* **Keep last value**. Whether to keep last entered value for this element during data collecting process.
+
+Coordinates
+----------
+
+An element which automatically saves current geographical coordinates in text format.
+
+Properties:
+
+* **Is hidden**. Do not show this element. The coordinates will be written to the layer's field(s) anyway.
+* **CRS**. Coordinate Reference System.
+* **Format**. The format of the string which will be written to the layer's field(s).
+
+Label
+-------
+
+An element which displays static text
+
+Properties:
+
+* **Text**. Displayed text.
+
+Signature field
+-------
+
+A field for signature.
+
+Void space
+------
+
+Void space for making indents.
+
+Radiogroup
+-----------
+
+A list with predefined items which allows the selection of only one value.
+
+Properties:
+
+* **Keep last value**. Whether to keep last entered value for this element during data collecting process.
+* **Items**. A list of items (must have at least two items).
+
+Splitted combobox
+----------------
+
+A drop-down list with predefined items splitted by two parts. Each item has an inner value for saving and a pair of displayed values. E.g. the collector will be able to see the same item but in different languages.
+
+Properties:
+
+* **Caption (left)**. Static text which will be placed above this element (at left).
+* **Caption (right)**. Static text which will be placed above this element (at right).
+* **Items**. A list of items.
+* **Keep last value**. Whether to keep last entered value for this element during data collecting process.
+
+Combobox
+------
+
+A drop-down list with predefined items which allows the selection of only one value.
+
+Properties:
+
+* **Items**. A list of items.
+* **Keep last value**. Whether to keep last entered value for this element during data collecting process.
+* **Own items**. User can add own items to this combobox.
+* **Input with search**. Whether to show or not corresponding items during typing in this combobox.
+
+Counter
+-------
+
+An element which automatically adds values based on some predefined format.
+
+Properties:
+
+* **Increment**. The value which is added to the current counter's value each time user collects data about an object.
+* **Initial value**. Initial value from which incrementing starts.
+* **Prefix**. A text which is added before the counter's value. If this text is not void the counter writes its value as a string.
+* **Suffix**. A text which is added after the counter's value. If this text is not void the counter writes its value as a string.
+* **Prefix from list**. Prefix from list.
+* **Suffix from list**. Suffix from list.
+
+Text edit
+--------------
+
+An element for editing simple text or numbers.
+
+Properties:
+
+* **Initial text**. Initial text.
+* **Keep last value**. Whether to keep last entered value for this element during data collecting process.
+* **Max. lines count**. Maximum number of lines for this text edit.
+* **NextGIS ID login**. The value in this text edit will be replaced with user's NextGIS ID login.
+* **NextGIS Web login**. The value in this text edit will be replaced with user's login if the connection with NextGIS Web is established during the data collecting process.
+* **Only numbers**. This element can accept only numbers.
+
+Checkbox
+------
+
+An element which allows user to pick from two values: true or false.
+
+Properties:
+
+* **Initial value**. Initial value.
+* **Keep last value**. Whether to keep last entered value for this element during data collecting process.
+* **Text**. Displayed text
+
+Photo
+----
+
+An element which allows to take photos with embedded camera or to add them from the gallery.
+
+Properties:
+
+* **Max. photo count**. Maximum number of photos.

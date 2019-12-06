@@ -54,8 +54,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'NextGIS Formbuilder'
-copyright = u'2015-2018, NextGIS'
-author = u'Михаил Гусев'
+copyright = u'2015-2020, NextGIS'
+author = u'Mikhail Gusev'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

@@ -31,20 +31,11 @@
 Рекомендуемые параметры системы
 -------------------------------
 
-Рекомендуемые параметры системы: ОС Windows XP/7/10; ОС Ubuntu Linux не ниже 18.04; 50 Мб свободного пространства на жёстком диске.
+Операционная система: Microsoft Windows XP/7/10, MacOS.
 
 .. _ngfb_run:
 
 Установка и запуск
 ------------------
 
-Для Windows: скачайте единый установщик программ NextGIS по адресу http://nextgis.ru/nextgis-formbuilder/ и запустите. Следуйте шагам мастера установки. После установки запустите появившийся ярлык на рабочем столе или в меню Пуск.
-
-Для Ubuntu Linux с версии 18.04:
-
-.. code-block:: bash
-
-   sudo apt-get install software-properties-common python-software-properties
-   sudo apt-add-repository ppa:nextgis/ppa
-   sudo apt-get install formbuilder
-   fb
+Скачайте единый установщик программ NextGIS по адресу http://nextgis.ru/nextgis-formbuilder/ и запустите. Следуйте шагам мастера установки. После установки запустите появившийся ярлык на рабочем столе или в меню Пуск.

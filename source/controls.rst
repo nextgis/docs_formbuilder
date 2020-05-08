@@ -120,8 +120,17 @@ Properties:
 * **Prefix from list**. Prefix from list.
 * **Suffix from list**. Suffix from list.
 
+Average counter
+---------------
+
+An element which counts an average value from some amount of entered values.
+
+Properties:
+
+* **Number of values**. How many values a collector can enter to count an average value.
+
 Text edit
---------------
+---------
 
 An element for editing simple text or numbers.
 
@@ -146,10 +155,11 @@ Properties:
 * **Text**. Displayed text
 
 Photo
-----
+-----
 
 An element which allows to take photos with embedded camera or to add them from the gallery.
 
 Properties:
 
 * **Max. photo count**. Maximum number of photos.
+* **Initial comment**. Initial comment under photo(s). A collector can change this text any time.

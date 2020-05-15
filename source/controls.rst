@@ -162,4 +162,4 @@ An element which allows to take photos with embedded camera or to add them from 
 Properties:
 
 * **Max. photo count**. Maximum number of photos.
-* **Initial comment**. Initial comment under photo(s). A collector can change this text any time.
+* **Comment**. Comment under photo(s).

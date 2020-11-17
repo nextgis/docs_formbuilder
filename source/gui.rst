@@ -92,7 +92,7 @@
 .. figure:: _static/Endpoint_Formbuilder.png
    :name: Endpoint_Formbuilder
    :align: center
-   :width: 16cm
+   :width: 10cm
 
    Добавление собственного сервера авторизации
 

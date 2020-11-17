@@ -12,7 +12,7 @@ The program looks like this by default: (:numref:`ngfb_gui_pic`).
    :align: center
    :width: 16cm
 
-   Formbuilder's GUI.
+   Formbuilder's GUI
 
    Numbers show: 1 - main menu; 2 - main toolbar; 3 - “Updates available” icon; 4 - authorization button; 5 - "device" screen; 6 - “Controls” menu; 7 - “Data” menu; 8 - “Properties” menu. 
 
@@ -72,17 +72,29 @@ A green square icon with an arrow (the top right corner by default) will be show
 
 Alternatively, you can run the NextGIS update wizard as a separate program from the NextGIS installation directory.
 
-Authorization button
-------------------
+Authorization
+-------------
 
 The button with the avatar image (the top right corner by default) allows you to authorize with NextGIS services and get the extended functionality of the program if you have a subscription. Press the button to authorize: in the pop-up window press “authorize” and enter login and password in the opened browser page, after that return to the program. Check that you have a “supported” account by clicking on the authorization button again. 
-
-An alternative way of completing the same steps from the main menu: Help -> About - > Your account.
 
 To change account press the authorization button once again and press “Sign out” in the pop-up window.
 
 .. note::
     Authorization can be completed only once. The next time you start the program, the authorization will pass automatically. Please note that after launching the program it may take several seconds before the blocked functionality becomes available.
+
+On-premise Authorization
+------------------------
+
+If you want to login via the on-premise, you must specify the appropriate Endpoint in the authorization settings (Main menu -> Settings -> Authorization (:numref:`Endpoint_Formbuilder_en`).
+
+.. figure:: _static/Endpoint_Formbuilder_en.png
+   :name: Endpoint_Formbuilder_en
+   :align: center
+   :width: 16cm
+
+   Adding your own authorization server
+
+
 
 Device screen
 ----------------

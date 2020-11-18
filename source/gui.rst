@@ -90,7 +90,7 @@ If you want to login via the on-premise, you must specify the appropriate Endpoi
 .. figure:: _static/Endpoint_Formbuilder_en.png
    :name: Endpoint_Formbuilder_en
    :align: center
-   :width: 16cm
+   :width: 10cm
 
    Adding your own authorization server
 

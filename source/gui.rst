@@ -85,7 +85,7 @@ To change account press the authorization button once again and press “Sign ou
 On-premise Authorization
 ------------------------
 
-If you want to login via the on-premise, you must specify the appropriate Endpoint in the authorization settings (Main menu -> Settings -> Authorization (:numref:`Endpoint_Formbuilder_en`).
+If you want to login via the on-premise, you must specify the appropriate Endpoint in the authorization settings (Main menu -> Settings -> Authorization) (:numref:`Endpoint_Formbuilder_en`).
 
 .. figure:: _static/Endpoint_Formbuilder_en.png
    :name: Endpoint_Formbuilder_en

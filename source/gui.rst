@@ -75,12 +75,14 @@ Alternatively, you can run the NextGIS update wizard as a separate program from 
 Authorization
 -------------
 
-The button with the avatar image (the top right corner by default) allows you to authorize with NextGIS services and get the extended functionality of the program if you have a subscription. Press the button to authorize: in the pop-up window press “authorize” and enter login and password in the opened browser page, after that return to the program. Check that you have a “supported” account by clicking on the authorization button again. 
+The button with the avatar image (the top right corner by default) allows you to sign in with NextGIS services and get the extended functionality of the program if you have a subscription. Press the button, then in the pop-up window press “Sign in”. In the opened browser page enter login and password of your NextGIS ID, after that return to the program. Check that you have a “supported” account by clicking on the authorization button again. 
 
-To change account press the authorization button once again and press “Sign out” in the pop-up window.
+To log off press the authorization button once again and press “Sign out” in the pop-up window.
 
 .. note::
-    Authorization can be completed only once. The next time you start the program, the authorization will pass automatically. Please note that after launching the program it may take several seconds before the blocked functionality becomes available.
+    Authorization needs to be completed only once. The next time you start the program, you will sign in automatically. Please note that after launching the program it may take several seconds before the blocked functionality becomes available.
+
+If you want to log into another account, sign out both in the program and in the browser.
 
 On-premise Authorization
 ------------------------

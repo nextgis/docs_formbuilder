@@ -38,4 +38,4 @@ Operating System: Microsoft Windows 10 64bit and above.
 Installation and launch
 -----------------------
 
-Download NextGIS unified installer from http://nextgis.com/nextgis-formbuilder/ and launch. Follow the installer steps. After downloading, use the shortcut, which appears on the desktop or in the Start menu.
+Download NextGIS unified installer from https://nextgis.com/nextgis-formbuilder/ and launch. Follow the installer steps. After downloading, use the shortcut, which appears on the desktop or in the Start menu.

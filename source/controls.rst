@@ -176,7 +176,7 @@ Modifying radiogroup allows to make following changes:
 
 To load a list from a file, press |button_load_csv| button with green mark above the table. Keep in mind that the current items will be cleared and replaced with items from the CSV file, a warning will appear before loading.
 
-Select CSV file with the list on your device. The list must contain 2 to 16 rows.
+Select CSV file with the list on your device. The list must contain 2 to 65536 rows.
 
 In the next dialog select the columns for the value and the corresponding display text. A list form from these two columns will appear in the table. Save the list by pressing **Ok**. It will appear in the form.
 

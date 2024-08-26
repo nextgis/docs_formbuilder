@@ -176,7 +176,7 @@ Modifying radiogroup allows to make following changes:
 
 To load a list from a file, press |button_load_csv| button with green mark above the table. Keep in mind that the current items will be cleared and replaced with items from the CSV file, a warning will appear before loading.
 
-Select CSV file with the list on your device. The list must contain 2 to 65536 rows.
+Select CSV file with the list on your device. The list must contain 2 to 16 rows.
 
 In the next dialog select the columns for the value and the corresponding display text. A list form from these two columns will appear in the table. Save the list by pressing **Ok**. It will appear in the form.
 
@@ -203,7 +203,24 @@ Properties:
 * **Field**. Select the layer field to store the data from this element.
 * **Custom items**. Data collector can enter new items to the list.
 
+Modifying combobox allows to make following changes:
 
+* Add new item (enter it into the yellow row with "*" for number and press Enter or "+" button on the right)
+* Clear list of items
+* Load items from .csv file
+* Add items from the last row - saves value entered in the yellow field and creates a new empty row for value entering
+* Remove selected row
+* Set as default value
+
+To load a list from a file, press |button_load_csv| button with green mark above the table. Keep in mind that the current items will be cleared and replaced with items from the CSV file, a warning will appear before loading.
+
+Select CSV file with the list on your device. The list must contain 2 to 65536 rows.
+
+In the next dialog select the columns for the value and the corresponding display text. A list form from these two columns will appear in the table. Save the list by pressing **Ok**. It will appear in the form.
+
+
+
+To clear the list and enter new items manually, press |button_clear_csv| button with red broom on it above the table. 
 
 .. _ngfb_controls_split_cb:
 

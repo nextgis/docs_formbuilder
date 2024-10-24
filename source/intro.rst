@@ -27,6 +27,7 @@
 
    Программа распространяется под лицензией `GPL v.2 <https://docs.nextgis.ru/docs_ngmanager/source/appendix.html#ngm-gplv2>`_.
 
+.. _ngfb_sys_req:
 
 Рекомендуемые параметры системы
 -------------------------------

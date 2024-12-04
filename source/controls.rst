@@ -8,6 +8,13 @@ Form elements
 This toolbar contains elements that can be added to a form. Hover over an element to see tooltip with its description.
 
 
+.. figure:: _static/fb_form_elements_en.png
+   :name: fb_form_elements_pic
+   :align: center
+   :width: 20cm
+
+   Elements panel
+
 
 To *add an element* to a form drag it holding left mouse button onto the device screen in the middle (the pointer will look like a squeezed hand). Alternatively you can quickly add an element to the end of the form by left-click + Ctrl.
 
@@ -32,6 +39,20 @@ To add a tab set, drag "Tabs" element to the form. On the right is the Propertie
 
 In this panel you can **switch between tabs** of the set and open the tab modifying dialog.
 
+
+.. figure:: _static/fb_tabs_current_en.png
+   :name: folder_current_pic
+   :align: center
+   :width: 20cm
+
+   Switching between tabs. Current tab 1 is marked in blue in the form
+
+.. figure:: _static/fb_tabs_properties_en.png
+   :name: folder_properties_pic
+   :align: center
+   :width: 20cm
+
+   Editing tab set
 
 
 In the Modify dialog you can:
@@ -78,7 +99,7 @@ If a tab set is deleted, all elements of each tab will also be deleted. To avoid
 .. _ngfb_controls_datetime:
 
 Date and time
-------------
+---------------
 
 This elements allows to enter date, time or date+time.
 
@@ -90,11 +111,18 @@ Properties:
 * **Type**. Date; time; or date + time.
 
 
+.. figure:: _static/fb_datetime_en.png
+   :name: fb_datetime_pic
+   :align: center
+   :width: 20cm
+
+   Date & time element and its properties
+
 
 .. _ngfb_controls_distance:
 
 Distance meter
----------
+----------------
 
 This element automatically measures distance between data collector and the entered point.
 
@@ -103,7 +131,7 @@ This element automatically measures distance between data collector and the ente
 .. _ngfb_controls_coordinates:
 
 Coordinates
-----------
+------------
 
 This element automatically saves current position of the data collector in string format.
 
@@ -128,17 +156,19 @@ Properties:
 
 * **Text**. Edit the text visible in the form.
 
+
+
 .. _ngfb_controls_sign:
 
 Signature field
--------
+------------------
 
 Field for a signature
 
 .. _ngfb_controls_void:
 
 Void space
-------
+-----------
 
 An empty field to create spaces between elements.
 
@@ -163,6 +193,13 @@ Properties:
 * **Field**. Select the layer field to store the data from this element.
 
 
+.. figure:: _static/fb_radio_edit_en.png
+   :name: fb_radio_edit_pic
+   :align: center
+   :width: 20cm
+
+   Editing radiogroup
+
 
 
 Modifying radiogroup allows to make following changes:
@@ -181,6 +218,13 @@ Select CSV file with the list on your device. The list must contain 2 to 16 rows
 In the next dialog select the columns for the value and the corresponding display text. A list form from these two columns will appear in the table. Save the list by pressing **Ok**. It will appear in the form.
 
 
+.. figure:: _static/fb_radio_from_csv_en.png
+   :name: fb_radio_from_csv_pic
+   :align: center
+   :width: 20cm
+
+   Loading list from CSV file
+
 
 To clear the list and enter new items manually, press |button_clear_csv| button with red broom on it above the table. 
 
@@ -191,7 +235,7 @@ To clear the list and enter new items manually, press |button_clear_csv| button 
 .. _ngfb_controls_combobox:
 
 Combobox
-------
+---------
 
 A dropdown menu to select one value from a predetermined list.
 
@@ -202,6 +246,15 @@ Properties:
 * **Items**. Here you can edit the list of possible values.
 * **Field**. Select the layer field to store the data from this element.
 * **Custom items**. Data collector can enter new items to the list.
+
+
+.. figure:: _static/fb_edit_combobox_en.png
+   :name: fb_edit_combobox_pic
+   :align: center
+   :width: 20cm
+
+   Edit list
+
 
 Modifying combobox allows to make following changes:
 
@@ -237,23 +290,37 @@ Properties:
 * **Items**. Press **Modify** to edit the list.
 
 
+.. figure:: _static/fb_edit_split_cb_en.png
+   :name: fb_edit_split_cb_pic
+   :align: center
+   :width: 20cm
+
+   Modifying items in a split combobox
+
 
 .. _ngfb_controls_dependet_cb:
 
 Dependent comboboxes
-----------------
+---------------------
 
 A pair of drop-down lists with predefined items.  The item list of the dependent combobox (bottom) depends on the items of the main combobox (top).
 
 **Example:**
 
-* Main list - a list of regions (1. Centre-Val de Loire; 2.  Grand Est)
-* Dependent list - departments of the regions (1.1. Eure-et-Loir, 1.2. Indre; 2.1. Ardennes, 2.2. Marne)
+* Main list - a list of regions (1. Auvergne-Rhône-Alpes; 2.  Bourgogne-Franche-Comté)
+* Dependent list - departments of the regions (1.1. Ain, 1.2. Allier etc; 2.1. Côte-d'Or, 2.2. Doubs etc)
 
 Properties:
 
 * **Items**. Here you can edit the list of possible values.
 * **Keep last value**. The default value will be the last entered.
+
+.. figure:: _static/fb_edit_dependent_cb_en.png
+   :name: fb_edit_dependent_cb_pic
+   :align: center
+   :width: 20cm
+
+   Editing dependent list of the comboboxes
 
 
 .. _ngfb_controls_counter:
@@ -306,6 +373,13 @@ Properties:
 * **Field**. Select the layer field to store the data from this element.
 * **Only numbers**. If checked, this element can only accept numbers.
 
+.. figure:: _static/fb_text_en.png
+   :name: fb_text_pic
+   :align: center
+   :width: 20cm
+
+   Three text fields in the form: plain text, NextGIS ID and NextGIS Web login
+
 
 
 .. _ngfb_controls_checkbox:
@@ -321,6 +395,13 @@ Properties:
 * **Initial value**. If this property is checked, the default value of the checkbox is "true".
 * **Text**. Display text.
 
+
+.. figure:: _static/fb_checkbox_en.png
+   :name: fb_checkbox_pic
+   :align: center
+   :width: 20cm
+
+   Checkbox set to default value "true"
 
 
 .. _ngfb_controls_photo:

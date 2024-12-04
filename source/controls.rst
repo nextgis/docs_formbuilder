@@ -340,6 +340,13 @@ Properties:
 
 To create a list of prefixes or suffixes, in the top panel open the Edit menu and select "Edit prefixes". Each column is a separate list.
 
+.. figure:: _static/fb_edit_counter_en.png
+   :name: fb_edit_counter_pic
+   :align: center
+   :width: 20cm
+
+   Lists of prefixes and suffixes
+
 
 
 .. _ngfb_controls_average:
@@ -354,6 +361,13 @@ Properties:
 * **Number of values**. How many values data collector should enter to calculate an average value.
 * **Field**. Select the layer field to store the data from this element.
 
+
+.. figure:: _static/fb_average_en.png
+   :name: fb_average_pic
+   :align: center
+   :width: 20cm
+
+   Average counter
 
 
 .. _ngfb_controls_text:

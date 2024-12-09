@@ -1,10 +1,8 @@
 .. sectionauthor:: Mikhail Gusev <mikhail.gusev@nextgis.ru>
 .. NextGIS FormBuilder TOC
 
-NextGIS Formbuilder documentation
+NextGIS Formbuilder
 =================================
-
-Contents:
 
 .. toctree::
    :maxdepth: 2

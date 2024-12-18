@@ -4,8 +4,6 @@
 NextGIS Formbuilder
 ================================
 
-Cодержание:
-
 .. toctree::
    :maxdepth: 2
 

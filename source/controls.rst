@@ -257,6 +257,14 @@
 
 В следующем окне выберите столбцы для значения и соответствующего ему отображаемого текста. Таблица этих соответствий появится в окне редактирования. После сохранения добавленный список будет отображен в форме.
 
+Пример работы с выпадающим списком представлен в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/4f9bee132a675e1624b8b5ab96ba358b/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/eElpGpMpcc8>`_, `rutube <https://rutube.ru/video/4f9bee132a675e1624b8b5ab96ba358b/>`_.
+
 .. _ngfb_controls_split_cb:
 
 Сдвоенный список

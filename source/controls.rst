@@ -25,6 +25,11 @@ Elements available without logging in: date & time, combobox, checkbox, label, r
 
 Elements only available in Pro version: average counter, coordinates, counter, dependent comboboxes, distance meter, photo, signature field, split combobox, tabs.
 
+Quick overview of the form elements on youtube:
+
+* `Date&Time, Photo and Text field <https://youtu.be/zWrKaT-SZZo?si=_kJd62vNdVdgg4RL>`_.
+* `Radiogroup and Checkbox <https://youtu.be/cwNwe5p_dbw?si=OigWL54fPNPrtmFW>`_.
+* `Long text field and collector's login <https://youtu.be/3SVWfRty700?si=rZVQcOj2sX33gFE4>`_.
 
 .. _ngfb_controls_tabs:
 
@@ -347,7 +352,11 @@ To create a list of prefixes or suffixes, in the top panel open the Edit menu an
 
    Lists of prefixes and suffixes
 
+.. raw:: html
 
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/2G4p7_qO6GE?si=nC8MPj0ZC2hBJfGh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/2G4p7_qO6GE?si=U9PnRJpEuquZSQW2>`_.
 
 .. _ngfb_controls_average:
 

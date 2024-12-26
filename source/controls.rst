@@ -343,6 +343,12 @@
 
    Списки префиксов и суффиксов
 
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/fe295fba16ab33c0cc85d9840314c0f1/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/4YEpgtlvDR4>`_, `rutube <https://rutube.ru/video/fe295fba16ab33c0cc85d9840314c0f1/>`_.
+
 .. _ngfb_controls_average:
 
 Счётчик среднего

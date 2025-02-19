@@ -5,7 +5,9 @@
 Working with the program
 ========================
 
-Creating a new local form
+.. _ngfb_new_local_form:
+
+Create a new local form
 -------------------------
 
 1. Run the program. Select File -> New;
@@ -20,14 +22,18 @@ Creating a new local form
 .. note::
     To collect data on your mobile device follow the NextGIS Mobile instructions. After the collection is complete, you can receive the collected data as a separate file. In NextGIS Mobile, select: Main menu -> find the layer in which the data was collected -> action button with a layer (three dots) -> Share -> in the pop-up dialog select the method for obtaining the final file (ZIP archive with GeoJSON data).
 
-Changing the local form
+.. _ngfb_edit_local_form:
+
+Edit local form
 -----------------------
 
 1. Run the program. Select: File -> Open. Specify the path to the file with the .ngfp extension;
 2. Make the necessary changes to the form;
 3. Save project to file. Select: File -> Save. The resulting file with the .ngfp extension can be uploaded to a mobile device as a *new* layer.
 
-Creating a new form in NextGIS Web
+.. _ngfb_new_form_ngw:
+
+Create a new form in NextGIS Web
 ----------------------------------
 
 1. Run the program. Create a new project or open an existing one from an .ngfp file;
@@ -70,10 +76,10 @@ If the name of the layer is not unique, you can change it either by selecting Ed
 .. note::
     To collect data on your mobile device follow the instructions of NextGIS Mobile/Collector.  The data collected by using the form will be synchronized with the layer automatically.
 
+.. _ngfb_form_from_layer_ngw:
 
-
-Creating a new form in NextGIS Web using existed layer
---------------------------------------------------
+Create a new form in NextGIS Web for an existing layer
+--------------------------------------------------------
 
 1. Run the program. Select: Edit -> Download from NextGIS;
 2. In the dialog that opens, specify the connection parameters and click the **"Connect"** button:
@@ -86,3 +92,11 @@ Creating a new form in NextGIS Web using existed layer
 3. In the resource list that appears, select a resource with the “Vector layer” type and click the **“Select”** button. If the connection is successful, the data structure of the layer will be uploaded, as well as the existing form (if it already exists for the selected layer);
 4. Make changes to the form. If there is no form initially, but you need to create it for an existing field structure - turn off the automatic field creation mode: the button "Bind elements to fields" should be in *unpressed* state. Place elements on the form. After that, connect the the fields with these elements through the “Field Layer” property in the “Properties” menu of the element. As a result, in the “Data” menu all fields should have green "ok" markers, indicating that the fields are successfully connected with the elements, and the elements themselves should not have red markers with an exclamation mark.
 5. Upload the modified form to NextGIS Web (see the section "Creating a New Form in NextGIS Web"). Please note that you cannot change existing resources this way; in any case, a new layer will be created and a form will be uploaded to it. If the layer you selected at the beginning had data, then this data will be copied to the new layer if fields match.
+
+See how it works in our video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/ns4eToTR6h8?si=vokxnCmfrMPUmErY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/ns4eToTR6h8?si=EnrVfOu6Ndwp6pBp>`_.

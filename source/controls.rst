@@ -408,7 +408,7 @@ Properties:
 .. _ngfb_controls_checkbox:
 
 Checkbox
-------
+---------
 
 An element which allows user to pick from two values: true or false.
 
@@ -430,7 +430,7 @@ Properties:
 .. _ngfb_controls_photo:
 
 Photo
-----
+-------
 
 An element which allows to take photos with the camera of the device or to add them from the gallery.
 

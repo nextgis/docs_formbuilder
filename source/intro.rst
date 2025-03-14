@@ -21,7 +21,7 @@
 
 .. only:: html
 
-   Программа распространяется под лицензией :ref:`GPL v.2 <ngm_gplv2>`.
+   Программа распространяется под лицензией `GPL v.2 <https://docs.nextgis.ru/docs_ngweb/source/appendix.html>`_.
 
 .. only:: latex
 

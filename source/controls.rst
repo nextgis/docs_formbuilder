@@ -28,9 +28,9 @@
 Также предлагаем короткие видео с обзором основных элементов:
 
 * Создание формы. Поля из элементов Дата и время, Фото, Текстовое поле: `youtube <https://youtu.be/78US9rYkTe4>`_, `rutube <https://rutube.ru/video/349c19279484201553385a72410c19e4/>`_.
-* Поля из элементов Радиогруппа и Флажок: `youtube <https://youtu.be/_B9ZvwJ_FHk>`_, `rutube <https://rutube.ru/video/0e06a0afb98e6a5febd1bdda4de61eca/>`_.
-* Добавление длинного текстового поля и автоматическая подстановка логина: `youtube <https://youtu.be/5R8onSVHr9c>`_, `rutube <https://rutube.ru/video/47b2e16a3b49b5b16a78af52f5f05398/>`_.
-* Создание мультиязычной формы: `youtube <https://youtu.be/to8hzqAoZiE>`_, `rutube <https://rutube.ru/video/30ede23c100dec9456e50592f698c196/>`_.
+* Поля из элементов Радиогруппа и Флажок: `youtube <https://youtu.be/_B9ZvwJ_FHk>`__, `rutube <https://rutube.ru/video/0e06a0afb98e6a5febd1bdda4de61eca/>`__.
+* Добавление длинного текстового поля и автоматическая подстановка логина: `youtube <https://youtu.be/5R8onSVHr9c>`__, `rutube <https://rutube.ru/video/47b2e16a3b49b5b16a78af52f5f05398/>`__.
+* Создание мультиязычной формы: `youtube <https://youtu.be/to8hzqAoZiE>`__, `rutube <https://rutube.ru/video/30ede23c100dec9456e50592f698c196/>`__.
 
 
 .. _ngfb_controls_tabs:
@@ -270,7 +270,7 @@
 
    <iframe width="560" height="315" src="https://rutube.ru/play/embed/b373abb58b290b421c8a7b02664da996/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Посмотреть видео на `youtube <https://youtu.be/4z8wJq5HWC8>`_, `rutube <https://rutube.ru/video/b373abb58b290b421c8a7b02664da996/>`_.
+Посмотреть видео на `youtube <https://youtu.be/4z8wJq5HWC8>`__, `rutube <https://rutube.ru/video/b373abb58b290b421c8a7b02664da996/>`__.
 
 В следующем окне выберите столбцы для значения и соответствующего ему отображаемого текста. Таблица этих соответствий появится в окне редактирования. После сохранения добавленный список будет отображен в форме.
 
@@ -280,7 +280,7 @@
 
    <iframe width="560" height="315" src="https://rutube.ru/play/embed/4f9bee132a675e1624b8b5ab96ba358b/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Смотреть на `youtube <https://youtu.be/eElpGpMpcc8>`_, `rutube <https://rutube.ru/video/4f9bee132a675e1624b8b5ab96ba358b/>`_.
+Смотреть на `youtube <https://youtu.be/eElpGpMpcc8>`__, `rutube <https://rutube.ru/video/4f9bee132a675e1624b8b5ab96ba358b/>`__.
 
 .. _ngfb_controls_split_cb:
 
@@ -355,7 +355,7 @@
 
    <iframe width="560" height="315" src="https://rutube.ru/play/embed/fe295fba16ab33c0cc85d9840314c0f1/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Посмотреть видео на `youtube <https://youtu.be/4YEpgtlvDR4>`_, `rutube <https://rutube.ru/video/fe295fba16ab33c0cc85d9840314c0f1/>`_.
+Посмотреть видео на `youtube <https://youtu.be/4YEpgtlvDR4>`__, `rutube <https://rutube.ru/video/fe295fba16ab33c0cc85d9840314c0f1/>`__.
 
 .. _ngfb_controls_average:
 

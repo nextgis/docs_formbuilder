@@ -63,8 +63,10 @@ Create a new form in NextGIS Web
 In this dialog you can chose what resources to create in the WebGIS. 
 By default, a **new vector layer** with the field structure, defined in the project, will be created in Web GIS, and the created **form** will be uploaded to it. You can add this layer as an item to an existing Collector project.
 In addition to that, you can also create:
+
     - a new Collector project (a data collection **project** and a **basemap** will be created)
     - a new **Web Map**
+
 To do so, tick the corresponding settings in the dialog.
 
 Click the **“Send”** button.  

@@ -3,7 +3,7 @@
 .. _ngfb_gui:
 
 User interface description 
-=======================
+===========================
 
 The program looks like this by default: (:numref:`ngfb_gui_pic`).
 
@@ -134,6 +134,6 @@ When creating elements for fields, their name, alias and type are automatically 
 
 
 “Properties” menu
----------------
+------------------
 
 This menu contains the table of properties of the selected element. Select an element by clicking on it with the left mouse button. Change the properties in the table that appears - changes to the element will be saved automatically. Please note: a change in one property may entail a change in another property of this element due to their incompatibility or mutual influence on each other. Changing the properties of an element also leads to an increase or decrease in the number of available types for fields, associated with the element: you can track this in the “Data” menu table.

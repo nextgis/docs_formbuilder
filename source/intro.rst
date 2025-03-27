@@ -3,7 +3,7 @@
 .. _ngfb_intro:
 
 Introduction
-========
+============
 
 .. _ngfb_purpose:
 

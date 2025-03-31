@@ -19,13 +19,7 @@ This documentation describes NextGIS Formbuilder version 3.0.
 Licence
 --------
 
-.. only:: html
-
-   Formbuilder is licensed under :ref:`GPL v.2 <_ngw_gplv2>`.
-
-.. only:: latex
-
-   Formbuilder is licensed under `GPL v.2 <https://docs.nextgis.com/docs_ngweb/source/appendix.html#ngw-gplv2>`_.
+Formbuilder is licensed under `GPL v.2 <https://docs.nextgis.com/docs_ngweb/source/appendix.html#ngw-gplv2>`_.
 
 
 System requirements

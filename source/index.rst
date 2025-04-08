@@ -3,15 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. include:: toc.rst
+NextGIS Formbuilder
+================================
 
 .. toctree::
    :maxdepth: 2
 
-   
-   
-Индекс и таблицы
-================
+   intro
+   gui
+   workflow
+   controls
+
 
 * :ref:`genindex`
 * :ref:`search`

@@ -75,7 +75,7 @@ Alternatively, you can run the NextGIS update wizard as a separate program from 
 Authorization
 -------------
 
-The button with the avatar image (the top right corner by default) allows you to sign in with NextGIS services and get the extended functionality of the program if you have a subscription. Press the button, then in the pop-up window press “Sign in”. In the opened browser page enter login and password of your NextGIS ID, after that return to the program. Check that you have a “supported” account by clicking on the authorization button again. 
+The button with the avatar image (the top right corner by default) allows you to sign in with NextGIS services and get the extended functionality of the program if you have a subscription. Press the button, then in the pop-up window press “Sign in”. In the opened browser page enter your email and password of your NextGIS ID, after that return to the program. Check that you have a “supported” account by clicking on the authorization button again. (`How to create NextGIS ID account <https://docs.nextgis.com/docs_ngcom/source/create.html>`_)
 
 To log off press the authorization button once again and press “Sign out” in the pop-up window.
 

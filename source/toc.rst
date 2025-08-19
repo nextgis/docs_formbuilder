@@ -1,13 +1,5 @@
-.. sectionauthor:: Mikhail Gusev <mikhail.gusev@nextgis.ru>
-.. NextGIS FormBuilder TOC
+.. important::
 
-NextGIS Formbuilder
-=================================
+   Table of contents is moved here:
 
-.. toctree::
-   :maxdepth: 2
-
-   intro
-   gui
-   workflow
-   controls
+   `NextGIS Formbuilder <https://docs.nextgis.com/docs_formbuilder/source/index.html>`_

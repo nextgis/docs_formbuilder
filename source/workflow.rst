@@ -1,4 +1,4 @@
-.. sectionauthor:: Mikhail Gusev <mikhail.gusev@nextgis.ru>
+
 
 .. _ngfb_workflow:
 

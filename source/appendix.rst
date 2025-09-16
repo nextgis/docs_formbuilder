@@ -1,4 +1,4 @@
-.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.ru>
+
 
 .. _ngw_gplv2:
 

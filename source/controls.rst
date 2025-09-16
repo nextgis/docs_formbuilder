@@ -1,4 +1,4 @@
-.. sectionauthor:: Mikhail Gusev <mikhail.gusev@nextgis.ru>, Yulia Grigorenko <grigorenko.j@gmail.com>
+
 
 .. _ngfb_controls:
 

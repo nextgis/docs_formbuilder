@@ -1,4 +1,3 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 
 .. _ngfb_gplv2:
 

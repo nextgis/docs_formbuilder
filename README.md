@@ -2,7 +2,7 @@
 
 Read online:
 * English - http://docs.nextgis.com/docs_formbuilder/source/index.html
-* Russian - http://docs.nextgis.ru/docs_formbuilder/source/index.html
+
 
 License
 -------------

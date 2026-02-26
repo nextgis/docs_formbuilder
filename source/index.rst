@@ -6,16 +6,8 @@
 NextGIS Formbuilder
 ================================
 
-.. toctree::
-   :maxdepth: 2
+.. note:: Это ПО больше не поддерживается. Чтобы создать проект сбора данных, воспользуйтесь `веб-интерфейсом <https://docs.nextgis.ru/docs_ngweb/source/collector.html>`_.
 
-   intro
-   gui
-   workflow
-   controls
+Вы можете скачать :download:`архивную документацию в виде PDF <_static/NextGIS_Formbuilder_RU.pdf>`.
 
-
-* :ref:`genindex`
-* :ref:`search`
-* :ref:`glossary`
 

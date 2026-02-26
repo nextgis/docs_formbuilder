@@ -1,20 +1,10 @@
-.. Документация NextGIS Formbuilder documentation master file, created by
-   sphinx-quickstart on Tue Mar 31 13:33:57 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+
 
 NextGIS Formbuilder
 ================================
 
-.. toctree::
-   :maxdepth: 2
 
-   intro
-   gui
-   workflow
-   controls
+.. note:: This software is no longer supported. To create data collection project, use `Web interface <https://docs.nextgis.com/docs_ngweb/source/collector.html#>`_ instead.
 
-* :ref:`genindex`
-* :ref:`search`
-* :ref:`glossary`
+You can :download:`download a PDF archive <_static/NextGIS_Formbuilder_Fixed.pdf>` of the old documentation.
 
